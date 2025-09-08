@@ -2,14 +2,15 @@ plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
 }
+
 android {
-    namespace = "com.example.labmap_week2_auliawidianputri_1131700"
-    compileSdk = 34  // versi stabil, 36 masih preview
+    namespace = "com.example.labmap_week2_auliawidianputri_11317o0"
+    compileSdk = 36
 
     defaultConfig {
-        applicationId = "com.example.labmap_week2_auliawidianputri_1131700"
+        applicationId = "com.example.labmap_week2_auliawidianputri_11317o0"
         minSdk = 24
-        targetSdk = 34
+        targetSdk = 36
         versionCode = 1
         versionName = "1.0"
 
@@ -34,13 +35,13 @@ android {
     }
 }
 
-
 dependencies {
 
+    implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
     implementation(libs.androidx.activity)
-    implementation(libs.constraintlayout)
+    implementation(libs.androidx.constraintlayout)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)

@@ -1,9 +1,12 @@
+<<<<<<< HEAD
 package com.example.labmap_week2_auliawidianputri_1131700
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import android.util.Log
 
+=======
+>>>>>>> 45f5c7d8df1cffc9ca526ce694719592d7090642
 class MainActivity : AppCompatActivity() {
     companion object {
         private const val TAG = "MainActivity"
